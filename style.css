@@ -1,0 +1,82 @@
+
+body {
+  background-color: #FFD700;
+  background-image: url("../assets/images/Mushroom-09.png");
+  font-family: 'arial';
+  font-size: 20px;
+
+}
+h1 {
+  color: #6A5ACD;
+  text-align:center;
+  font-family: 'arial';
+  font-size: 50px;
+
+}
+h2{
+  color: #00BFFF;
+  font-family: 'arial';
+  font-size: 30px;
+}
+h3{
+  color: #F0F8FF;
+  font-family: 'arial';
+  font-size: 30px;
+}
+
+.navbar {
+  border: solid	#9370DB 5px;
+  overflow: hidden;
+  background-color: 	#FFA500;
+  top: 5px; /* Position the navbar at the top of the page */
+  width: 99%; /* Full width */
+}
+/* Links inside the navbar */
+.navbar a {
+  display:block;
+  font-family: 'arial';
+  float: left;
+  text-align:center;
+  padding-right:50px;
+  padding-left:150px;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-decoration: none;
+}
+a:link {
+  color: #8A2BE2;
+}
+
+a:visited {
+  color: 	#1E90FF;
+}
+a:hover {
+  color: #B0E0E6;
+}
+a:focus {
+  color: #6A5ACD;
+}
+
+p {
+  font-size: 20px;
+  color: #6A5ACD;
+}
+li {
+  color: #8A2BE2;
+  font-size: 25px;
+}
+.demo {
+  border:1px solid #A163C6;
+  border-collapse:collapse;
+  padding:5px;
+}
+.demo th {
+  border:1px solid #A163C6;
+  padding:5px;
+  background:#8AA3F6;
+}
+.demo td {
+  border:1px solid #A163C6;
+  padding:5px;
+  background:#DAC7FF;
+}
